@@ -1,0 +1,34 @@
+/*
+    This styleshit is to combine bootstrap's css and costumize rule and creat new classes
+
+    Author: Alberto Moreno González
+    Date: 26/01/2022
+    Repository: 
+    Version: 1.0
+
+*/
+
+@font-face {
+    src:("....");
+    font-family: minombre;
+}
+
+.minombre {font-family:minombre;}
+
+/*     general layout     */
+
+#logo {width:48px;}
+
+body {
+    background-image:url('../images/background.jpg');
+    background-size: cover;
+    background-size: 75%;
+}
+
+.navbar {
+    z-index:1020;
+}
+
+#wrapper {
+    width: 95%!important;
+}
