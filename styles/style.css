@@ -9,11 +9,11 @@
 */
 
 @font-face {
-    src:("....");
-    font-family: minombre;
+    font-family: 'Cinzel'; 
+    src: url("../fonts/Cinzel-VariableFont_wght.ttf"); 
 }
 
-.minombre {font-family:minombre;}
+.titlefont {font-family:'Cinzel';}
 
 /*     general layout     */
 
@@ -31,4 +31,26 @@ body {
 
 #wrapper {
     width: 95%!important;
+}
+
+#title {position: absolute;
+    width:400px;
+    top: 100px;
+    right: 100px;
+    z-index: 99;
+}
+
+h1 {
+    color: rgb(11, 78, 77);
+    text-align: left;
+    font-family: 'Cinzel';
+    font-size: 2em;
+    text-shadow: 2px 2px 1px #25282c,
+                    -1px 1px 1px #25282c,
+                    1px -1px 1px #25282c,
+                    -1px -1px 1px #25282c;
+}
+
+.lightgreen {
+    background-color:rgb(205, 230, 229);
 }

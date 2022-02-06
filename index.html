@@ -47,6 +47,7 @@
       </div>
     </nav>
     <section id="hero">
+      <img id="title" class="d-block" src="./images/title.png" alt="The Legend of Zelda title">
       <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -55,19 +56,19 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/heroSection0.jpg" class="d-block w-100" alt="zelda breath of the wild caption">
+            <img src="./images/heroSection0.jpg" class="d-block w-100" alt="zelda breath of the wild panoramic">
             <div class="carousel-caption d-none d-md-block">
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/heroSection1.jpg" class="d-block w-100" alt="zelda ocarina of tima caption">
+            <img src="./images/heroSection1.jpg" class="d-block w-100" alt="zelda ocarina of tima panoramic">
             <div class="carousel-caption d-none d-md-block">
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./images/heroSection2.jpg" class="d-block w-100" alt="zelda caption">
+            <img src="./images/heroSection2.jpg" class="d-block w-100" alt="zelda panoramic">
             <div class="carousel-caption d-none d-md-block">
               <p>Some representative placeholder content for the third slide.</p>
             </div>
@@ -83,42 +84,54 @@
         </button>
       </div>
     </section >
-    <section id="introduction">
-      
+    <section id="introduction" class="lightgreen mt-5 p-4">
+      <div class="container-fluid">
+        <h1 class="titlefont">Introduction</h1>
+          <div class="row">
+            <div class="col-md-12 col-lg-6 mt-5"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit mollitia, nulla voluptas unde commodi rerum esse temporibus nihil consectetur facilis voluptates magnam. Ducimus sequi expedita quasi laboriosam et rerum dolor.
+            Numquam ex, fugit officia nemo itaque nulla non ad quos? Ullam quia totam sit nihil, eveniet maxime deleniti sapiente quam tempora dolore ipsam dolores, explicabo quos vel fugiat, dignissimos dolor.
+            Illum eius quidem harum doloremque officiis expedita vel sed minima laboriosam corporis dolorum nesciunt quasi cupiditate impedit, quis at voluptas quod ad? Excepturi sit enim odit, nostrum quo nihil dolorum.
+            Voluptatum eveniet architecto voluptatibus veritatis, magnam ducimus fugiat ipsam, reprehenderit in tempora alias ad, labore id doloremque ut illum. Ea explicabo quibusdam mollitia suscipit rem aut iste at harum facilis!
+            Voluptatibus, quas repellendus corporis necessitatibus sequi reiciendis, inventore quod optio doloremque fugiat perferendis magnam vitae? Quo eum ea natus vel non delectus, voluptates excepturi, voluptas quam tempora totam, tenetur qui.</p></div>
+          
+            <div class="col-md-12 col-lg-6 mt-5"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ab omnis voluptas deleniti voluptatibus, illo quaerat ratione minus corrupti explicabo itaque, dolor nobis, mollitia eaque. Culpa quo cum explicabo beatae!
+            Est corrupti dolor laudantium voluptatibus dolore. Blanditiis numquam iste eum iure officiis necessitatibus! Recusandae totam deserunt, dignissimos ipsum veritatis eligendi accusamus culpa ut velit sequi! Quo beatae quidem corporis a.
+            Eaque nam necessitatibus blanditiis sequi nulla assumenda at fugiat quam quis quaerat illo earum tempora dolorem facilis totam, hic aperiam commodi? Earum animi praesentium esse eos libero consectetur nostrum odio.
+            Commodi sed, inventore labore, ad alias necessitatibus quasi totam ex dolore mollitia ipsa quam. Id corrupti, numquam doloremque iste accusantium adipisci consectetur earum, deserunt inventore error minus assumenda ducimus illum!
+            Porro, dolore quia voluptatum atque vitae molestias totam ut cumque, animi corporis quod nisi ipsum, enim iure eligendi magnam eos consequatur ratione nemo. Quae inventore blanditiis maxime omnis, tempora beatae.</p></div>
+          </div>
+      </div>
     </section>
-    
     <section id="videogames">
       <div class="container-fluid">
         <div class="class row">
-          <div class="col-xs-12 col md-6 col-lg-3 mt-5">
+          <div class="col-xs-12 col-md-6 col-lg-3 mt-5">
             <!--Card 1-->
-            <div class="card">
-              <img class="w-75 d-block m-auto p-3" src="https://i.picsum.photos/id/18/400/400.jpg?hmac=xLgpYlioJ3SU10Fsey6e_ujE4WekO93b6ZRIej0Atts">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="card h-100">
+              <img class="w-75 d-block m-auto p-3" src="./images/caratulazelda1.jpg" alt="zelda 1 cover">
+              <div class="card-body h-100">
+                <h5 class="card-title">The Legend of Zelda</h5>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">Console: Nintendo Entertainment System (NES)</li>
+                <li class="list-group-item">Year: 1986</li>
               </ul>
               <div class="card-body">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  Launch demo modal
+                <button type="button" class="btn btn-success d-grid gap-2 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Know more!
                 </button>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">The Legend of Zelda</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
                         1
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
                       </div>
                     </div>
                   </div>
@@ -128,33 +141,31 @@
           </div>
           <div class="col-xs-12 col-md-6 col-lg-3 mt-5">
             <!--Card 2-->
-            <div class="card">
-              <img class="w-75 d-block m-auto p-3" src="https://i.picsum.photos/id/18/400/400.jpg?hmac=xLgpYlioJ3SU10Fsey6e_ujE4WekO93b6ZRIej0Atts">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="card h-100">
+              <img class="w-75 d-block m-auto p-3" src="./images/caratulazelda2.jpg" alt="zelda 2 cover">
+              <div class="card-body h-100">
+                <h5 class="card-title">The Legend of Zelda 2: The Adventure of Link</h5>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">Console: Nintendo Entertainment System (NES)</li>
+                <li class="list-group-item">Year: 1987</li>
               </ul>
               <div class="card-body">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                  Launch demo modal
+                <button type="button" class="btn btn-success d-grid gap-2 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                  Know more!
                 </button>
                 <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel2">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel2">The Legend of Zelda 2: The Adventure of Link</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
                         2
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
                       </div>
                     </div>
                   </div>
@@ -164,33 +175,31 @@
           </div>
           <div class="col-xs-12 col-md-6 col-lg-3 mt-5">
             <!--Card 3-->
-            <div class="card">
-              <img class="w-75 d-block m-auto p-3" src="https://i.picsum.photos/id/18/400/400.jpg?hmac=xLgpYlioJ3SU10Fsey6e_ujE4WekO93b6ZRIej0Atts">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="card h-100">
+              <img class="w-75 d-block m-auto p-3" src="./images/caratulazelda3.png" alt="zelda alttp cover">
+              <div class="card-body h-100">
+                <h5 class="card-title">The Legend of Zelda: A Link to the Past</h5>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">Console: Super Nintendo Entertainment System (SNES)</li>
+                <li class="list-group-item">Year: 1991</li>
               </ul>
               <div class="card-body">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                  Launch demo modal
+                <button type="button" class="btn btn-success d-grid gap-2 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                  Know more!
                 </button>
                 <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel3">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel3">The Legend of Zelda: A Link to the Past</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
                         3
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
                       </div>
                     </div>
                   </div>
@@ -200,39 +209,176 @@
         </div>
         <div class="col-xs-12 col-md-6 col-lg-3 mt-5">
           <!--Card 4-->
-            <div class="card">
-              <img class="w-75 d-block m-auto p-3" src="https://i.picsum.photos/id/18/400/400.jpg?hmac=xLgpYlioJ3SU10Fsey6e_ujE4WekO93b6ZRIej0Atts">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div class="card h-100">
+            <img class="w-75 d-block m-auto p-3" src="./images/caratulazelda4.jpg" alt="zelda la cover">
+            <div class="card-body h-100">
+              <h5 class="card-title">The Legend of Zelda: Link's Awakening</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Console: Gameboy</li>
+              <li class="list-group-item">Year: 1993</li>
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-success d-grid gap-2 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                Know more!
+              </button>
+              <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel4">The Legend of Zelda: Link's Awakening</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      4
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="class row">
+          <div class="col-xs-12 col md-6 col-lg-3 mt-5">
+            <!--Card 5-->
+            <div class="card h-100">
+              <img class="w-75 d-block m-auto p-3" src="./images/caratulazelda5.jpg" alt="zelda oot cover">
+              <div class="card-body h-100">
+                <h5 class="card-title">The Legend of Zelda: Ocarina of Time</h5>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">Console: Nintendo 64</li>
+                <li class="list-group-item">Year: 1998</li>
               </ul>
               <div class="card-body">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                  Launch demo modal
+                <button type="button" class="btn btn-success d-grid gap-2 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                  Know more!
                 </button>
-                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel4">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalLabel5">The Legend of Zelda: Ocarina of Time</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                        4
+                        5
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 mt-5">
+            <!--Card 6-->
+            <div class="card h-100">
+              <img class="w-75 d-block m-auto p-3" src="./images/caratulazelda6.jpg" alt="zelda mm cover">
+              <div class="card-body h-100">
+                <h5 class="card-title">The Legend of Zelda: Majora's Mask</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Console: Nintendo 64</li>
+                <li class="list-group-item">Year: 2000</li>
+              </ul>
+              <div class="card-body">
+                <button type="button" class="btn btn-success d-grid gap-2 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                  Know more!
+                </button>
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel2">The Legend of Zelda: Majora's Mask</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        6
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-3 mt-5">
+            <!--Card 7-->
+            <div class="card h-100">
+              <img class="w-50 d-block m-auto p-3" src="./images/caratulazelda7.jpg" alt="zelda ooa cover">
+              <img class="w-50 d-block m-auto p-3" src="./images/caratulazelda8.jpg" alt="zelda oos cover">
+              <div class="card-body h-100">
+                <h5 class="card-title">The Legend of Zelda: Oracle of Ages/Seasons</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Console: Gameboy Color</li>
+                <li class="list-group-item">Year: 2001</li>
+              </ul>
+              <div class="card-body">
+                <button type="button" class="btn btn-success d-grid gap-2 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                  Know more!
+                </button>
+                <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel7">The Legend of Zelda: Oracle of Ages/Seasons</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        3
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 mt-5">
+          <!--Card 8-->
+          <div class="card h-100">
+            <img class="w-75 d-block m-auto p-3" src="./images/caratulazelda9.jpg" alt="zelda la cover">
+            <div class="card-body h-100">
+              <h5 class="card-title">The Legend of Zelda: The Wind Waker</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Console: Nintendo Gamecube</li>
+              <li class="list-group-item">Year: 2002</li>
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-success d-grid gap-2 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                Know more!
+              </button>
+              <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel8">The Legend of Zelda: The Wind Waker</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      4
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </div>
