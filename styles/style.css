@@ -54,3 +54,7 @@ h1 {
 .lightgreen {
     background-color:rgb(205, 230, 229);
 }
+
+.photo {
+    min-height: 25vh;
+}
