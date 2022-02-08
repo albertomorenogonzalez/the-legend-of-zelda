@@ -33,13 +33,6 @@ body {
     width: 95%!important;
 }
 
-#title {position: absolute;
-    width:400px;
-    top: 100px;
-    right: 100px;
-    z-index: 99;
-}
-
 h1 {
     color: rgb(11, 78, 77);
     text-align: left;
@@ -53,8 +46,4 @@ h1 {
 
 .lightgreen {
     background-color:rgb(205, 230, 229);
-}
-
-.photo {
-    min-height: 25vh;
 }
