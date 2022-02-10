@@ -33,17 +33,24 @@ body {
     width: 95%!important;
 }
 
-h1 {
+h1, h2 {
     color: rgb(11, 78, 77);
     text-align: left;
     font-family: 'Cinzel';
-    font-size: 2em;
     text-shadow: 2px 2px 1px #25282c,
                     -1px 1px 1px #25282c,
                     1px -1px 1px #25282c,
                     -1px -1px 1px #25282c;
 }
 
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
 .lightgreen {
-    background-color:rgb(205, 230, 229);
+    background-color:rgb(220, 252, 212);
 }
