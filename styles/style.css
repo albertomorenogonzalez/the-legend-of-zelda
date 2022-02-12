@@ -29,6 +29,10 @@ body, .accordion-body {
     z-index:1020;
 }
 
+.modal {
+    z-index:2000;
+}
+
 #wrapper {
     width: 95%!important;
 }
