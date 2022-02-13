@@ -3,21 +3,17 @@
 
     Author: Alberto Moreno González
     Date: 26/01/2022
-    Repository: 
+    Repository: the-legend-of-zelda
     Version: 1.0
 
 */
+
+/*     general layout     */
 
 @font-face {
     font-family: 'Cinzel'; 
     src: url("../fonts/Cinzel-VariableFont_wght.ttf"); 
 }
-
-.titlefont {font-family:'Cinzel';}
-
-/*     general layout     */
-
-#logo {width:48px;}
 
 body, .accordion-body {
     background-image:url('../images/background.jpg');
@@ -25,19 +21,11 @@ body, .accordion-body {
     background-size: 75%;
 }
 
-.navbar {
-    z-index:1020;
-}
-
-.modal {
-    z-index:2000;
-}
-
 #wrapper {
     width: 95%!important;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: rgb(11, 78, 77);
     text-align: left;
     font-family: 'Cinzel';
@@ -47,6 +35,72 @@ h1, h2 {
                     -1px -1px 1px #25282c;
 }
 
+h3 {
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(226, 253, 220);
+}
+
 .lightgreen {
     background-color:rgb(226, 253, 220);
+}
+
+.modal {
+    z-index:2000;
+}
+
+
+/*     Nav style    */
+
+.navbar {
+    z-index:1020;
+}
+
+#logo {
+    width:48px;
+}
+
+
+/*    introduction style    */
+
+.photofeat {
+    text-align: center;
+    font-weight: 50%;
+}
+
+
+/*    CD-i zelda style   */
+
+#cdi a {
+    text-decoration: none;
+}
+
+#cdi a:hover {
+    background-color:rgb(160, 183, 204);
+}
+
+
+/*    footer style    */
+
+#author {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bg-footer {
+    background-color: rgb(6, 46, 45);
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(193, 247, 181);
+    font-size: 105%;
 }

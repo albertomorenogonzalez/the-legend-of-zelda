@@ -1,3 +1,6 @@
+/******* THE-LEGEND-OF-ZELDA SCRIPTS *******/
+
+
 /* ToolTip script */
 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))

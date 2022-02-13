@@ -8,6 +8,7 @@
     <link rel="shotcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div id="wrapper" class="container-fluid">
@@ -23,26 +24,32 @@
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Introduction</a>
+              <a class="nav-link" href="#introduction">Introduction</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#videogames" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Videogames
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Principal Videogames</a></li>
-                <li><a class="dropdown-item" href="#">Spin-Offs</a></li>
-                <li><a class="dropdown-item" href="#">Other Appearences</a></li>
+              <ul class="dropdown-menu lightgreen" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#principal-videogames">Principal Videogames</a></li>
+                <li><a class="dropdown-item" href="#spin-offs">
+                  <button class="dropdown-item lightgreen" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">Spin-Offs</button>
+                </a></li>
+                <li><a class="dropdown-item" href="#other-appearences">
+                  <button class="dropdown-item lightgreen" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">Other Appearences</button>
+                </a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Cronology</a>
+              <a class="nav-link" href="#chronology">Chronology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#curiosities">Curiosities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">About</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -73,28 +80,26 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </section >
-    <section id="introduction" class="lightgreen mt-5 p-4">
+    </section>
+    <section id="introduction">
       <div class="container-fluid">
-        <h1>Introduction</h1>
-        <div class="row">
-          <div class="col-md-12 col-lg-6 mt-5"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit mollitia, nulla voluptas unde commodi rerum esse temporibus nihil consectetur facilis voluptates magnam. Ducimus sequi expedita quasi laboriosam et rerum dolor.
-          Numquam ex, fugit officia nemo itaque nulla non ad quos? Ullam quia totam sit nihil, eveniet maxime deleniti sapiente quam tempora dolore ipsam dolores, explicabo quos vel fugiat, dignissimos dolor.
-          Illum eius quidem harum doloremque officiis expedita vel sed minima laboriosam corporis dolorum nesciunt quasi cupiditate impedit, quis at voluptas quod ad? Excepturi sit enim odit, nostrum quo nihil dolorum.
-          Voluptatum eveniet architecto voluptatibus veritatis, magnam ducimus fugiat ipsam, reprehenderit in tempora alias ad, labore id doloremque ut illum. Ea explicabo quibusdam mollitia suscipit rem aut iste at harum facilis!
-          Voluptatibus, quas repellendus corporis necessitatibus sequi reiciendis, inventore quod optio doloremque fugiat perferendis magnam vitae? Quo eum ea natus vel non delectus, voluptates excepturi, voluptas quam tempora totam, tenetur qui.</p></div>
-        
-          <div class="col-md-12 col-lg-6 mt-5"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ab omnis voluptas deleniti voluptatibus, illo quaerat ratione minus corrupti explicabo itaque, dolor nobis, mollitia eaque. Culpa quo cum explicabo beatae!
-          Est corrupti dolor laudantium voluptatibus dolore. Blanditiis numquam iste eum iure officiis necessitatibus! Recusandae totam deserunt, dignissimos ipsum veritatis eligendi accusamus culpa ut velit sequi! Quo beatae quidem corporis a.
-          Eaque nam necessitatibus blanditiis sequi nulla assumenda at fugiat quam quis quaerat illo earum tempora dolorem facilis totam, hic aperiam commodi? Earum animi praesentium esse eos libero consectetur nostrum odio.
-          Commodi sed, inventore labore, ad alias necessitatibus quasi totam ex dolore mollitia ipsa quam. Id corrupti, numquam doloremque iste accusantium adipisci consectetur earum, deserunt inventore error minus assumenda ducimus illum!
-          Porro, dolore quia voluptatum atque vitae molestias totam ut cumque, animi corporis quod nisi ipsum, enim iure eligendi magnam eos consequatur ratione nemo. Quae inventore blanditiis maxime omnis, tempora beatae.</p></div>
+        <h1 class="lightgreen mt-5 p-4">Introduction</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-6 mt-5 p-4 align-self-center lightgreen">
+              <p>The Legend of Zelda is a high fantasy-action videogame franchise created by the japanese designers Shigeru Miyamoto and Takashi Tezuka. It was developed and distributed by Nintendo. The gameplay consist in explore a vast world and its dungeons, fight against enemies and solve puzzles. The first game was released on 21st february 1986 and along all this 36 years 19 videogames of the principal series had been released, without counting its Spin-Offs. The protagonist of this story is Link, who has the duty of save the Hyrule kingdom and its princess, Princess Zelda, of Ganon's claws in most of the games. The series turns around a sacred omnipotent relic calls triforce, the union of three gold triangles, triforce of power, triforce of wisdom and triforce of courage.</p>
+            </div>
+            <div class="col-md-12 col-lg-6 mt-5 pt-2 p-md-4">
+              <img src="./images/allLinksAndTriforce.jpg" class="img-fluid" alt="all links and the triforce">
+              <p class="photofeat lightgreen">All Links and the triforce in the center</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <section id="videogames">
       <h1 class="lightgreen mt-5 p-4">Videogames</h1>
-      <h2 class="lightgreen mt-5 px-4 py-2">Principal Videogames</h2>
+      <h2 id="principal-videogames" class="lightgreen mt-5 px-4 py-2">Principal Videogames</h2>
       <div class="container-fluid">
         <div class="row">
           <div class="col-xs-12 col-md-6 col-lg-3 p-5 p-lg-4 p-xl-5">
@@ -113,7 +118,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      1
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>1986</li>
+                        <li class="list-group-item"></i><span class="bold"> Consoles where it's available: </span>Famicom, NES, Game & Watch, Nintendo GameCube, GameBoy Advance, Wii, Nintendo 3DS, Wii U, Nintendo Switch</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda1.png" alt="the legend of zelda ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          A young man called Link has to find the eight pieces of triforce of wisdom to save Princess Zelda who has been kidnaped by the evil king Ganon. 
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -139,7 +155,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      2
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>1987</li>
+                        <li class="list-group-item"></i><span class="bold"> Consoles where it's available: </span>Famicom, NES, Game & Watch, Nintendo GameCube, GameBoy Advance, Wii, Nintendo 3DS, Wii U, Nintendo Switch</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda2.jpg" alt="the legend of zelda 2 the adventure of link ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          Link has to find how to wake up Princess Zelda, who has been cursed to sleep forever. To complete his mission, Link must enter in the Great Palace and retrieve triforce of courage.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -165,7 +192,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      3
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>1991</li>
+                        <li class="list-group-item"></i><span class="bold"> Consoles where it's available: </span>SNES, Satellaview, GameBoy Advance, Wii, Wii U, New Nintendo 3DS, Nintendo Switch</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda3.jpg" alt="the legend of zelda a link to the past ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          An evil sorcerer called Aghanim has take possesion of Hyrule and he wants to use his power to free Ganon from the Dark World. Link has to rescue Princess Zelda and the descendants of the Seven Sages to defeat Aghanim and Ganon.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -191,7 +229,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      4
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>1993</li>
+                        <li class="list-group-item"></i><span class="bold"> Consoles where it's available: </span>GameBoy, GameBoy Color, Nintendo 3DS, Nintendo Switch</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda4.png" alt="the legend of zelda links awakening ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          After defeating Ganon, Link set sail looking for new adventures. During a storm he sinks and wakes up in a beach where he is rescued by Marin and Tarin. An owl say him to look for the eight Instruments of the Sirens to wake up the WindFish and exit from Koholint Island.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -219,7 +268,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      5
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>1998</li>
+                        <li class="list-group-item"></i><span class="bold"> Consoles where it's available: </span>Nintendo 64, Nintendo GameCube, Nintendo iQue, Wii, Nintendo 3DS, Wii U, Nintendo Switch</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda5.jpeg" alt="the legend of zelda ocarina of time ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          A young man called Link has to prevent Ganondorf from getting the triforce, but fails. Now he needs six madalions to defeat Ganondorf, travelling through past and future thanks to the Master Sword.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -245,7 +305,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      6
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2000</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo 64, Nintendo GameCube, Wii, Nintendo 3DS, Wii U</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda6.jpg" alt="the legend of zelda majoras mask ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          After Ocarina of Time events, an Skull Kid transport Link to a paralell world calls Termina where that Skull Kid had stolen the Majora's Mask, a powerfull and dangerous item. With it, the villain is disturbing Termina inhabitants and its threatening to make the Moon fall in 72 hours. Link has to get back in time again and again in order to prevent this catastrophic situation.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -271,7 +342,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      7
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2001</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>GameBoy Color, Nintendo 3DS</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda7.jpg" alt="the legend of zelda oracle of seasons ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          Link is transported to Holodrum land due to the triforce. He has to rescue Din, the Oracle of Seasons traveling through seasons. Thanks to Linked Game, you can connect this game with Oracle of Ages to continue the plot and watch and alternative ending.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -297,7 +379,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      8
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2001</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>GameBoy Color, Nintendo 3DS</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda8.png" alt="the legend of zelda oracle of ages ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          Link is transported to Labrynna land due to the triforce. He has to rescue Nayry, the Oracle of Ages traveling through time. Thanks to Linked Game, you can connect this game with Oracle of Seasons to continue the plot and watch and alternative ending.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -325,7 +418,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      9
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2002</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo GameCube, Wii U</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda9.jpg" alt="the legend of zelda the wind waker ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          Link's sister has been kidnaped by a huge bird. Link has to sail on the King of Red Lions through the Great Sea and count with the help of the Wind Waker to rescue his sister and then defeat Ganondorf.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -351,7 +455,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      10
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2002</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>GameBoy Advance, Nintendo DS, Nintendo 3DS</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda10.jpg" alt="the legend of zelda four swords ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          The evil magician Vaati kidnaps Princess Zelda and retains her in his palace. To rescue her, Link must use a sword which divide Link in four Links to go through all obstacles.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -377,7 +492,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      11
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2004</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo GameCube</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda11.jpg" alt="the legend of zelda four swords adventures ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          The evil magician Vaati use a dark version of Link to kidnap Princess Zelda. To rescue her, Link must use a sword which divide Link in four Links to go through all obstacles.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -403,7 +529,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      12
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2004</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>GameBoy Advance, Wii U</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda12.jpg" alt="the legend of zelda the minish cap ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          With the help of Ezero, a cap which makes him smaller, Link has to save Princess Zelda who have been turned to stone by the evil magician Vaati.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -431,7 +568,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      13
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2006</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo GameCube, Wii, Wii U</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda13.png" alt="the legend of zelda twilight princess ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          Link has turned into a wolf, and with the help of the twili Midna has to save their respective worlds, Hyrule and the Twilight Realm, which are merging at the hands of the twilight king Zant and Ganondorf.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -457,7 +605,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      14
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2007</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo DS, Wii U</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda14.jpg" alt="the legend of zelda phantom hourglass ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          Link and Tetra, with a pirate band sail across the Great Sea. One day, Tetra dissapears when she was exploring an abandoned ship and Link failed trying to recue her. A fairy called Ciela wakes up him in an unknown island. She will go along with Link in an adventure in order to find Tetra.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -483,7 +642,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      15
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2009</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo DS, Wii U</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda15.jpg" alt="the legend of zelda spirit tracks ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          Link is an engineer's apprentice who is warned by the princess Zelda about the chancellor Cole. She also request him help with the dissapearance of the spirit tracks across New Hyrule.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -509,7 +679,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      16
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2011</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Wii, Wii U, Nintendo Switch</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda16.jpg" alt="the legend of zelda skyward sword ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          Link lives in Skyloft, a group of floating islands upon the sky. One day he discovers the Skyward Sword and is transported to an unknown land domained by forces of evil. With the help of that sword, he must rescue his childhood friend Zelda who has been kidnaped by the demon Ghirahim
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -537,7 +718,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      17
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2013</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo 3DS</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda17.png" alt="the legend of zelda a link between worlds ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          An evil sorcerer called Yuga is transforming the descendants of the Seven Sages in pictures. Link tries to stop him but but he ends turning into a picture too, but thanks to a bracelet that a misterious man called Ravio gave him, he is able to transform in a picture when he wants, using this ability to stop Yuga.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -563,7 +755,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      18
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2015</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo 3DS</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda18.jpg" alt="the legend of zelda triforce heroes ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          Link has to defeat the witch called "The Lady", which have cursed the princess Styla of Hytopia forcing her to wear an unreamovable brown jumpsuit.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -589,7 +792,18 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      19
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2017</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Wii U, Nintendo Switch</li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <img class="w-75" src="./images/zelda19.jpg" alt="the legend of zelda breath of the wild ingame">
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          Link wakes up after 100 years in a Hyrule in ruins due to Calamity Ganon. While Link is prepearing to defeated the evil forces, the princess Zelda has been all this 100 years containing Ganon in the Hyrule Castle.
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -604,7 +818,7 @@
             <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
               <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal20">
                 <div class="card h-100 lightgreen">
-                  <img src="./images/zelda19cover.png" class="card-img" alt="zelda breath of the wild cover">
+                  <img src="./images/zelda20cover.png" class="card-img" alt="zelda breath of the wild cover">
                 </div>
               </button>
               <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel20" aria-hidden="true">
@@ -615,7 +829,23 @@
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                      20
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2022</li>
+                        <li class="list-group-item"></i><span class="bold">Consoles where it's going to be available: </span>Nintendo Switch</li>
+                        <li class="list-group-item">
+                          At 2019 E3 Nintendo announced that a sequel of The Legend of Zelda: Breath of the Wild was in development. Until 2021 E3 we had no information, and at that conference we can saw a gameplay trailer and the game was confirmed to be released at 2022. We don't know the exact date of release neither the name yet. Here there are the two trailers:
+                        </li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <iframe src="https://www.youtube.com/embed/3fr1Z07AV00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                        </li>
+                        <li class="list-group-item">
+                          <div class="text-center">
+                            <iframe src="https://www.youtube.com/embed/Pi-MRZBP91I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -631,7 +861,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
             <button class="accordion-button collapsed lightgreen" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              <h2>Spin-Offs</h2>
+              <h2 id="spin-offs">Spin-Offs</h2>
             </button>
           </h2>
           <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
@@ -639,22 +869,33 @@
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 1 - The Legend of Zelda -->
+                    <!--Card 21 - Link: The Faces of Evil -->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal21">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda1cover.jpeg" class="card-img" alt="zelda 1 cover">
+                          <img src="./images/zelda21cover.png" class="card-img" alt="link the faces of evil cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel21" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">The Legend of Zelda</h5>
+                              <h5 class="modal-title" id="exampleModalLabel21">Zelda for CD-i</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              1
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>1993-1994</li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Phillips CD-i</li>
+                                <li class="list-group-item">
+                                  <div class="text-center">
+                                    <img class="w-75" src="./images/zeldacdi.jpg" alt="xdd">
+                                  </div>
+                                </li>
+                                <li id="cdi" class="list-group-item">
+                                  Link: The Faces of Evil, Zelda: The Wand of Gamelon and Zelda's Adventure are three Zelda Games that weren't developed by Nintendo and they are the only ones that were released in a console that wasn't from Nintendo, it was for Phillips CD-i. They are considered the worst games of the franchise. You can know a little bit more of his history <a href="https://ubeat.tv/v/hey-look-listen-los-peores-juegos-de-the-legend-of-zelda?utm_source=templo&utm_medium=youtube&utm_campaign=heylooklisten" &quot; target="_blank">here</a>.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -665,22 +906,48 @@
                     </span>
                   </div>
                   <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 2 - The Legend of Zelda 2: The Adventure of Link-->
+                    <!--Card 22 - Zelda: The Wand of Gamelon-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal21">
                         <div class="card h-75 lightgreen">
-                          <img src="./images/zelda2cover.jpg" class="card-img" alt="zelda 2 the adventure of link cover">
+                          <img src="./images/zelda22cover.png" class="card-img" alt="zelda the wand of gamelon cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                    </span>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
+                    <!--Card 23 - Zelda's Adventure-->
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal21">
+                        <div class="card h-100 lightgreen">
+                          <img src="./images/zelda23cover.png" class="card-img" alt="zeldas adventure cover">
+                        </div>
+                      </button>
+                    </span>
+                  </div>
+                  <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
+                    <!--Card 24 - Freshly-Picked Tingle's Rosy Rupeeland-->
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal22">
+                        <div class="card h-100 lightgreen">
+                          <img src="./images/tingle1cover.png" class="card-img" alt="freshly picked tingles rosy rupeeland cover">
+                        </div>
+                      </button>
+                      <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel22" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel2">The Legend of Zelda 2: The Adventure of Link</h5>
+                              <h5 class="modal-title" id="exampleModalLabel22">Freshly-Picked Tingle's Rosy Rupeeland</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              2
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2006</li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo DS</li>
+                                <li class="list-group-item">
+                                  Tingle (first appartation in The Legend of Zelda: Majora's Mask) is a 35 year old men who is fooled by Mr Rupee to obtain the higher possible number of rupees to reach Rupeeland.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -691,22 +958,28 @@
                     </span>
                   </div>
                   <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 3 - The Legend of Zelda: A Link to the Past-->
+                    <!--Card 25 - Link's Crossbow Training-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal23">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda3cover.png" class="card-img" alt="zelda a link to the past cover">
+                          <img src="./images/lctcover.png" class="card-img" alt="links crossbow training cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel23" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel3">The Legend of Zelda: A Link to the Past</h5>
+                              <h5 class="modal-title" id="exampleModalLabel23">Link's Crossbow Training</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              3
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2007</li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Wii</li>
+                                <li class="list-group-item">
+                                  As Link, you have to pass a series of trials with Wii Zapper accesory.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -717,74 +990,28 @@
                     </span>
                   </div>
                   <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 4 - The Legend of Zelda: Link's Awakening-->
+                    <!--Card 26 - Tingle's Balloon Fight DS-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal24">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda4cover.png" class="card-img" alt="zelda links awakening cover">
+                          <img src="./images/tingle2cover.png" class="card-img" alt="tingles balloon fight ds cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel24" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel4">The Legend of Zelda: Link's Awakening</h5>
+                              <h5 class="modal-title" id="exampleModalLabel24">Tingle's Balloon Fight DS</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              4
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </span>
-                  </div>
-                  <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 4 - The Legend of Zelda: Link's Awakening-->
-                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                        <div class="card h-100 lightgreen">
-                          <img src="./images/zelda4cover.png" class="card-img" alt="zelda links awakening cover">
-                        </div>
-                      </button>
-                      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel4">The Legend of Zelda: Link's Awakening</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              4
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </span>
-                  </div>
-                  <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 4 - The Legend of Zelda: Link's Awakening-->
-                    <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                        <div class="card h-100 lightgreen">
-                          <img src="./images/zelda4cover.png" class="card-img" alt="zelda links awakening cover">
-                        </div>
-                      </button>
-                      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
-                        <div class="modal-dialog">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel4">The Legend of Zelda: Link's Awakening</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                              4
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2007</li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo DS</li>
+                                <li class="list-group-item">
+                                  Remake of the NES game Balloon Fight starred by Tingle.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -797,22 +1024,28 @@
                 </div>
                 <div class="row">
                   <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 1 - The Legend of Zelda -->
+                    <!--Card 27 - Irozuki Tingle no Koi no Ballon Trip-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal25">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda1cover.jpeg" class="card-img" alt="zelda 1 cover">
+                          <img src="./images/tingle3cover.png" class="card-img" alt="	irozuki tingle no koi no ballon trip cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal25" tabindex="-1" aria-labelledby="exampleModalLabel25" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">The Legend of Zelda</h5>
+                              <h5 class="modal-title" id="exampleModalLabel25">Irozuki Tingle no Koi no Ballon Trip</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              1
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2009 </li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo DS</li>
+                                <li class="list-group-item">
+                                  Freshly-Picked Tingle's Rosy Rupeeland sequel. It only was available for Japan.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -823,22 +1056,28 @@
                     </span>
                   </div>
                   <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 2 - The Legend of Zelda 2: The Adventure of Link-->
+                    <!--Card 28 - Dekisugi Tingle Pack-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                        <div class="card h-75 lightgreen">
-                          <img src="./images/zelda2cover.jpg" class="card-img" alt="zelda 2 the adventure of link cover">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal26">
+                        <div class="card h-100 lightgreen">
+                          <img src="./images/tingle4cover.png" class="card-img" alt="dekisugi tingle pack cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal26" tabindex="-1" aria-labelledby="exampleModalLabel26" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel2">The Legend of Zelda 2: The Adventure of Link</h5>
+                              <h5 class="modal-title" id="exampleModalLabel26">Dekisugi Tingle Pack</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              2
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2009 </li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo DS</li>
+                                <li class="list-group-item">
+                                  Minigames recopilaton starred by Tingle. It only was available for DSi Ware and for Japan.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -849,22 +1088,28 @@
                     </span>
                   </div>
                   <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 3 - The Legend of Zelda: A Link to the Past-->
+                    <!--Card 29 - Hyrule Warriors-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal27">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda3cover.png" class="card-img" alt="zelda a link to the past cover">
+                          <img src="./images/hwcover.png" class="card-img" alt="hyrule warriors cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal27" tabindex="-1" aria-labelledby="exampleModalLabel27" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel3">The Legend of Zelda: A Link to the Past</h5>
+                              <h5 class="modal-title" id="exampleModalLabel27">Hyrule Warriors</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              3
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2014</li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Wii U, Nintendo 3DS, Nintendo Switch</li>
+                                <li class="list-group-item">
+                                  Musou (1 vs 1000) where the accion of Dinasty Warriors franchise mix with The Legend of Zelda.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -875,22 +1120,28 @@
                     </span>
                   </div>
                   <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 4 - The Legend of Zelda: Link's Awakening-->
+                    <!--Card 30 - My Nintendo Picross-The Legend of Zelda: Twilight Princess-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal28">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda4cover.png" class="card-img" alt="zelda links awakening cover">
+                          <img src="./images/mnptpcover.png" class="card-img" alt="zelda twilight princess picross cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal27" tabindex="-1" aria-labelledby="exampleModalLabel27" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel4">The Legend of Zelda: Link's Awakening</h5>
+                              <h5 class="modal-title" id="exampleModalLabel27">My Nintendo Picross-The Legend of Zelda: Twilight Princess</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              4
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2016</li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo 3DS</li>
+                                <li class="list-group-item">
+                                  This is a puzzle game only available by MyNintendo. It's a picross classic game inspired by The Legend of Zelda: Twilight Princess.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -901,22 +1152,28 @@
                     </span>
                   </div>
                   <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 4 - The Legend of Zelda: Link's Awakening-->
+                    <!--Card 31 - Cadence of Hyrule — Crypt of the NecroDancer Featuring The Legend of Zelda-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal28">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda4cover.png" class="card-img" alt="zelda links awakening cover">
+                          <img src="./images/cohcover.png" class="card-img" alt="cadence of hyrule cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal28" tabindex="-1" aria-labelledby="exampleModalLabel28" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel4">The Legend of Zelda: Link's Awakening</h5>
+                              <h5 class="modal-title" id="exampleModalLabel28">Cadence of Hyrule — Crypt of the NecroDancer Featuring The Legend of Zelda</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              4
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2019</li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo Switch</li>
+                                <li class="list-group-item">
+                                  Crossover between The Legend of Zelda and Crypt of the Necrodancer.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -927,22 +1184,28 @@
                     </span>
                   </div>
                   <div class="col-6 col-md-4 col-lg-2 p-2 p-sm-4 p-lg-2 p-xl-4">
-                    <!--Card 4 - The Legend of Zelda: Link's Awakening-->
+                    <!--Card 31 - Hyrule Warriors: Age of Calamity-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal29">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda4cover.png" class="card-img" alt="zelda links awakening cover">
+                          <img src="./images/hwaoccover.png" class="card-img" alt="hyrule warrior age of calamity cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal29" tabindex="-1" aria-labelledby="exampleModalLabel29" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel4">The Legend of Zelda: Link's Awakening</h5>
+                              <h5 class="modal-title" id="exampleModalLabel29">Hyrule Warriors: Age of Calamity</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              4
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2020</li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Nintendo Switch</li>
+                                <li class="list-group-item">
+                                  In this new The legend of Zelda musou we play events located 100 years before The Legend of Zelda: Breath of the Wild, when Calamity Ganon appears.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -960,7 +1223,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
             <button class="accordion-button collapsed lightgreen" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              <h2>Other Appearences</h2>
+              <h2 id="other-appearences">Other Appearences</h2>
             </button>
           </h2>
           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
@@ -968,22 +1231,26 @@
               <div class="container">
                 <div class="row">
                   <div class="col-12 col-sm-4 p-5 p-sm-3 p-lg-5">
-                    <!--Card 1 - The Legend of Zelda -->
+                    <!--Card 32 - Super Smash Bros Franchise-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal30">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda1cover.jpeg" class="card-img" alt="zelda 1 cover">
+                          <img src="./images/supersmashbros.png" class="card-img" alt="super smash bros ultimate">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal30" tabindex="-1" aria-labelledby="exampleModalLabel30" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">The Legend of Zelda</h5>
+                              <h5 class="modal-title" id="exampleModalLabel30">Super Smash Bros Franchise</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              1
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                  In all titles of this Nintendo fight game franchise we can see fighters, items and scenaries form The Legend of Zelda. We can see in the card photo Link form Breath of the Wild in first line (Super Smash Bros Ultimate cover).
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -994,22 +1261,28 @@
                     </span>
                   </div>
                   <div class="col-12 col-sm-4 p-5 p-sm-3 p-lg-5">
-                    <!--Card 2 - The Legend of Zelda 2: The Adventure of Link-->
+                    <!--Card 33 - Soulcalibur II-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal31">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda2cover.jpg" class="card-img" alt="zelda 2 the adventure of link cover">
+                          <img src="./images/soulcaliburiicover.png" class="card-img" alt="soulcalibur ii cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal31" tabindex="-1" aria-labelledby="exampleModalLabel31" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel2">The Legend of Zelda 2: The Adventure of Link</h5>
+                              <h5 class="modal-title" id="exampleModalLabel31">Soulcalibur II</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              2
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2003</li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Arcade, Xbox, PS2, PS3, Nintendo GameCube, Xbox 360</li>
+                                <li class="list-group-item">
+                                  In the Nintendo GameCube version of this game appears Link.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -1020,22 +1293,28 @@
                     </span>
                   </div>
                   <div class="col-12 col-sm-4 p-5 p-sm-3 p-lg-5">
-                    <!--Card 3 - The Legend of Zelda: A Link to the Past-->
+                    <!--Card 34 - Mario Kart 8-->
                     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Click here to discover more about this game!">
-                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                      <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal32">
                         <div class="card h-100 lightgreen">
-                          <img src="./images/zelda3cover.png" class="card-img" alt="zelda a link to the past cover">
+                          <img src="./images/mariokart8cover.png" class="card-img" alt="mario kart 8 cover">
                         </div>
                       </button>
-                      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                      <div class="modal fade" id="exampleModal32" tabindex="-1" aria-labelledby="exampleModalLabel32" aria-hidden="true">
                         <div class="modal-dialog">
                           <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel3">The Legend of Zelda: A Link to the Past</h5>
+                              <h5 class="modal-title" id="exampleModalLabel32">Mario Kart 8</h5>
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                              3
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></i><span class="bold"> Realease Date: </span>2018</li>
+                                <li class="list-group-item"></i><span class="bold">Consoles where it's available: </span>Wii U, Nintendo Switch</li>
+                                <li class="list-group-item">
+                                  Link, a track vehicules and accesories inspired in The Legend of Zelda appears in a DLC in this game of the Mario Kart franchise.
+                                </li>
+                              </ul>
                             </div>
                             <div class="modal-footer">
                               <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -1052,7 +1331,7 @@
         </div>
       </div>
     </section>
-    <section id="cronology">
+    <section id="chronology">
       <h1 class="lightgreen mt-5 p-4">Chronology</h1>
       <div class="container-fluid px-4 mt-5">
         <div class="row">
@@ -1061,70 +1340,156 @@
               <img src="./images/chronology.jpg" class="card-img" alt="zelda chronology">
             </div>
           </div>
-          <div class="col-12 col-lg-6 mt-5 mt-lg-0 p-lg-5">
-            <p class="lightgreen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut porro distinctio placeat, fuga deleniti praesentium ipsam maxime mollitia eos, debitis voluptates repellat sint dignissimos, blanditiis natus odit. Repudiandae, odio accusamus?</p>
+          <div class="col-12 col-lg-6 align-self-center mt-5 mt-lg-0 p-lg-5">
+            <p class="lightgreen p-4">
+              The exact chronology of The Lengend of Zelda was a debate until 2011, where in the book Hyrule Historia the official chronology was revealed. I said that existed three temporal lines at The Legend of Zelda Universe starting those in Ocarina of Time, with Zelda sending Link to the past to revive his childhood. Before this game, the line was unificated. Zelda games which release date is after Hyrule Historia chronology are there because the hace official confirmation. The Legend of Zelda: Breath of the Wild is not in the chronology, and without official confirmation we can place it correctly. We only know that the events of Hyrule Warriors Age of Calamity are placed 100 years before.
+            </p>
           </div>
         </div>
         <div class="row gx-5 mt-5">
-          <div class="col-12 col-md-4">
-            <div class="p-3 border lightgreen">Custom column padding</div>
+          <div class="col-12 col-md-4 m-2 m-md-auto">
+            <div class="p-3 border lightgreen">
+              <h3>Defeated Hero Line</h3>
+              <p>When Link enters the Temple of Time and pulls out Master Sword, breaking the seal of the Sacred Realm. Ganondorf takes advantage of this. At this point, the temporal line have its first bifurcation. In the one hand, Link wakes up Seven years later and Ocarina of Time evnets continue. On the other hand, Ganon, with the power of Triforce transform the Sacred Realm in the Dark World (Imprisioning War). It follows A Link to the Past, Link's Awakening, A Link Between Worlds, Zelda 1 and Zelda 2.</p>
+            </div>
           </div>
-          <div class="col-12 col-md-4">
-            <div class="p-3 border lightgreen">Custom column padding</div>
+          <div class="col-12 col-md-4 m-2 m-md-auto">
+            <div class="p-3 border lightgreen">
+                <h3>Child Link Line</h3>
+                <p>At the end of Ocarina of Time, Zelda returns Link to his time creating the other 2 temporal lines. In this line, Links leaves Hyrule and arrives Termina when he was looking for his friend Navi, starting the events of Majora's Mask. It follows Twilight Princess and Four Swords Adventures.</p>
+            </div>
           </div>
-          <div class="col-12 col-md-4">
-            <div class="p-3 border lightgreen">Custom column padding</div>
+          <div class="col-12 col-md-4 m-2 m-md-auto">
+            <div class="p-3 border lightgreen">
+              <h3>Adult Link Line</h3>
+              <p>After the end of Ocarina of Time, Ganondorf break the seal of the Seven Sages and invade Hyrule. Like the Hero of Time doesn't appear (he is in Termina), the gods flood Hyrule (the Great Flood). It follows The Wind Waker, Phantom Hourglass and Spirit Tracks.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section id="curiosities">
       <h1 class="lightgreen mt-5 p-4">Curiosities</h1>
-      <div class="container">
+      <div class="container mt-5">
         <div class="row">
-          <div class="col">
-
+          <div class="col-12 col-md-6 p-3 align-self-center lightgreen">
+            <p>The actor Robin Williams named his daughter Zelda in honour to the franchise. Both appeared in the advertisement of The Legend of Zelda: Ocarina of Time remake for Nintendo 3DS and The Legend of Zelda Skyward Sword for the 25th aniversary of the franchise.</p>
           </div>
-          <div class="col">
-            
+          <div class="col-12 col-md-6 p-3">
+            <div class="text-center">
+              <img class="w-75" src="./images/robinwilliamsysuhija.jpg" alt="robin williams y su hija jugando zelda">
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col">
-            
+          <div class="col-12 col-md-6 mt-3 p-3">
+            <div class="text-center">
+              <img class="w-75" src="./images/zeldamm.jpg" alt="zelda majoras mask">
+            </div>
           </div>
-          <div class="col">
-            
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            
-          </div>
-          <div class="col">
-            
+          <div class="col-12 col-md-6 mt-3 p-3 align-self-center lightgreen">
+            <p>Majora`s Mask was developed in 14 months (record of the franchise) while its remake for Nintendo 3DS lasted three years aprox. in be finished.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col">
-            
+          <div class="col-12 col-md-6 mt-3 p-3 align-self-center lightgreen">
+            <p>In a Mirinda sport we can see a child playing The Legend of Zelda: Ocarina of Time. While he plays, Link is in Kakariko and opens a chest, which opens and find there some Mirinda bottles. Since that moment we can see Link ignoring the child's inpunts while he is drinking some Mirinda.</p>
           </div>
-          <div class="col">
-            
+          <div class="col-12 col-md-6 mt-3 p-3">
+            <div class="text-center">
+              <iframe src="https://www.youtube.com/embed/3dnW8QJxHD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col">
-            
+          <div class="col-12 col-md-6 mt-3 p-3">
+            <div class="text-center">
+              <img class="w-75" src="./images/linktp.jpg" alt="zelda majoras mask">
+            </div>
           </div>
-          <div class="col">
-            
+          <div class="col-12 col-md-6 mt-3 p-3 align-self-center lightgreen">
+            <p>Due to the grat majority of the population is right-handed and for the adaptation of the Wii Remote to the right hand, in Wii version of The Legend of Zelda Twilight Princess all the game had to be rotated originally Link was left-handed</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 mt-3 p-3 align-self-center lightgreen">
+            <p>Twilight Princess Link is the only one that have met one of his other reincarnations (Hero's Shade that appears in Twilight Princess is Link from Ocarina of Time).</p>
+          </div>
+          <div class="col-12 col-md-6 mt-3 p-3">
+            <div class="text-center">
+              <img class="w-75" src="./images/Combate.png" alt="zelda majoras mask">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 mt-3 p-3">
+            <div class="text-center">
+              <img class="w-75" src="./images/Koji_Kondo.jpg" alt="zelda majoras mask">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mt-3 p-3 align-self-center lightgreen">
+            <p>The composer Koji Kondo had in mind use Ravel's Bolero like the main theme of The Legend of Zelda, but it had copyright. So at the mid of the development, Kondo xomposed the main theme that we all know in a record time.</p>
           </div>
         </div>
       </div>
     </section>
-    <footer>
-
+    <footer id="footer" class="bg-footer mt-5">
+      <h1 class="lightgreen mt-5 p-4">About</h1>
+      <div class="container-fluid mt-5">
+        <div class="row">
+          <div class="col-12 col-md-4 mb-5 m-md-auto">
+            <!-- My card -->
+            <div class="card-fluid h-100 lightgreen">
+              <img src="./images/alberto.jpg" class="card-img-top" alt="albertomorenogonzalez">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fa fa-user" aria-hidden="true"></i> Author of the Page:</h5>
+                <p id="author">Alberto Moreno González<br></p>
+                <p class="card-text">This is me. I created this webpage for a Mark Up Lenguage subject project. The page is a tribute to my favourite videogame franchise The Legend of Zelda, and it's also a remake for a webpage that I made for a ICT project at 2nd of Bachillerato with less html/css knowledge.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item lightgreen"><i class="fa fa-users" aria-hidden="true"></i><span class="bold"> Course: </span>1st DAM</li>
+                <li class="list-group-item lightgreen"><i class="fa fa-building" aria-hidden="true"></i><span class="bold"> High School: </span><a href="https://iescampanillas.com">IES Campanillas</a></li>
+                <li class="list-group-item lightgreen"><i class="fa fa-headphones" aria-hidden="true"></i><span class="bold"> Discord: </span>Albmg_ #5446</li>
+                <li class="list-group-item lightgreen"><i class="fa fa-github" aria-hidden="true"></i><span class="bold"> GitHub: </span><a href="https://github.com/albertomorenogonzalez">albertomorenogonzalez</a></li>
+                <li class="list-group-item lightgreen"><i class="fa fa-linkedin" aria-hidden="true"></i><span class="bold"> Linkedin: </span><a href="https://www.linkedin.com/in/alberto-moreno-gonz%C3%A1lez-177160231/">Alberto Moreno González</a></li>
+                <li class="list-group-item lightgreen"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:alberto.moreno.fp@iescampanillas.com"><span class="bold">Email me!</span></a></li>
+                <li class="list-group-item text-center lightgreen">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.2524620002027!2d-4.556802984367977!3d36.74051077875617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f1d06d8246c9%3A0xb6dccfba3e65a1f2!2sIES%20Campanillas-Edificio%20CITIC!5e0!3m2!1sen!2ses!4v1644786753218!5m2!1sen!2ses" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <!-- my zelda collection and the original page that I made  -->
+            <div class="card bg-footer border-0 h-50 pb-5 p-md-auto">
+              <img src="./images/zeldacollection.jpg" alt="my zelda collection">
+              <h3>My Zelda Collection</h3>
+            </div>
+            <div class="card bg-footer border-0 h-50 pt-5 p-md-auto">
+              <img src="./images/originalpage.png" alt="original page">
+              <h3>Original Page</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <!-- Nintendo card -->
+            <div class="card-fluid h-100 lightgreen">
+              <img src="./images/logoNintendo.png" class="card-img-top" alt="nintendo logo">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fa fa-building" aria-hidden="true"></i> Author of the Franchise:</h5>
+                <p id="author">Nintendo<br></p>
+                <p class="card-text">Nintendo Co., Ltd. is a Japanese multinational video game company headquartered in Kyoto, Japan. It develops video games and video game consoles. Nintendo has multiple subsidiaries in Japan and abroad, in addition to business partners such as The Pokémon Company and HAL Laboratory. Nintendo and its staff has received awards including Emmy Awards for Technology & Engineering, Game Awards, Game Developers Choice Awards and British Academy Games Awards. It is one of the wealthiest and most valuable companies in the Japanese market.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item lightgreen"><i class="fa fa-info-circle" aria-hidden="true"></i> <a href="https://www.nintendo.com"><span class="bold">Official Site</span></a></li>
+                <li class="list-group-item lightgreen"><i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://mobile.twitter.com/nintendoeurope?lang=es"><span class="bold">Official Twitter</span></a></li>
+                <li class="list-group-item text-center lightgreen">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1666609.1864372306!2d136.63789950383446!3d35.32843583667677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea56fc31281%3A0xeeee341f7057bf3c!2sNintendo%20Co.Ltd%20Tokyo%20Office!5e0!3m2!1sen!2ses!4v1644786814541!5m2!1sen!2ses" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
 
